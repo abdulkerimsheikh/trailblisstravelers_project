@@ -50,8 +50,8 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
   - Beautiful visuals to enhance storytelling.
  
   **Screenshot:**
+![aboutpage](https://github.com/user-attachments/assets/33e59827-97b5-47b9-b130-8eeab9add37a)
 
-![About Page](static/images/about-page.png "About Page Screenshot")
 
 ### Contact
 - **Purpose:** Allow users to reach out for inquiries or feedback.
