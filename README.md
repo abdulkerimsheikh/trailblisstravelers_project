@@ -41,7 +41,7 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
 
  **Screenshot:**
 
-![Home Page](static/images/home-page.png "Home Page Screenshot")
+![home-page](https://github.com/user-attachments/assets/b295658e-090d-4aac-a525-193e6e10e04f)
 
 ### About
 - **Purpose:** Share the mission, vision, and unique value of TrailBliss Travelers.
@@ -50,6 +50,7 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
   - Beautiful visuals to enhance storytelling.
  
   **Screenshot:**
+  
 ![aboutpage](https://github.com/user-attachments/assets/33e59827-97b5-47b9-b130-8eeab9add37a)
 
 
@@ -62,7 +63,7 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
  
   - **Screenshot:**
 
-![Contact Page](static/images/contact-page.png "Contact Page Screenshot")
+![contact-page](https://github.com/user-attachments/assets/47e59741-d6f2-4af5-9a7d-694e45d02574)
 
 ### Destinations
 - **Purpose:** Highlight featured destinations with curated travel recommendations.
@@ -73,7 +74,7 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
  
   - **Screenshot:**
 
-![Destination Page](static/images/destination-page.png "Destination Page Screenshot")
+![destination-page](https://github.com/user-attachments/assets/71da3897-eb4b-419d-aecc-a4a49c35d67c)
 
 ### Signup
 - **Purpose:** Simulated signup for users to "create an account."
@@ -93,7 +94,7 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
  
   - **Screenshot:**
 
-![Login Page](static/images/login-page.png "Login Page Screenshot")
+![login-page](https://github.com/user-attachments/assets/7118444e-7249-4537-be88-8527cb24b1d5)
 
 ---
 
