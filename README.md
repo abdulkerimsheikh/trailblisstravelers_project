@@ -84,7 +84,7 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
  
   - **Screenshot:**
 
-![Signup Page](static/images/signup-page.png "Signup Page Screenshot")
+![signup-page](https://github.com/user-attachments/assets/7a441a6f-672e-40f3-8f15-d5b441e63d31)
 
 ### Login
 - **Purpose:** Simulated login for returning users.
