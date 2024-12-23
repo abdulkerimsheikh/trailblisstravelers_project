@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body class="home-page">
+    <header>
+        <nav class="navbar_home">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logoo.png') }}" alt="TrailBliss Travels Logo"
+                    class="logo-img">
+            </div>
+            <ul class="nav-links_home">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('destinations') }}">Destinations</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                <li><a href="{{ url_for('signup') }}">Signup</a></li>
+            </ul>
+            <button class="cta-buttn_home" onclick="window.location.href='{{ url_for('destinations') }}'">Book
+                Now</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>EXPLORE THE WORLD<br> WITH US</h1>
+            <h3>Discover Amazing Places</h3>
+            <p>Plan your next adventure with Explore the World and <br> make memories that last a lifetime.</p>
+            <button class="cta-button-explore_destinations"
+                onclick="window.location.href='{{ url_for('destinations') }}'">Explore Destinations</button>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul class="social-links">
+            <li><a href="https://facebook.com/youragency"><i class="bx bxl-facebook"></i></a></li>
+            <li><a href="https://instagram.com/youragency"><i class="bx bxl-instagram"></i></a></li>
+            <li><a href="https://twitter.com/youragency"><i class="bx bxl-twitter"></i></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

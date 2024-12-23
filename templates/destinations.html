@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World - Destinations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body class="destinations-page">
+
+    <nav class="nnavbar_destination">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logoo.png') }}" alt="TrailBliss Travels Logo"
+                class="logo-img">
+        </div>
+        <ul class="nnav-links_destination">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('destinations') }}">Destinations</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            <li><a href="{{ url_for('signup') }}">Signup</a></li>
+        </ul>
+        <button class="cta-buttn_destination" onclick="window.location.href='{{ url_for('contact') }}'">Book
+            Now</button>
+    </nav>
+
+    <header class="hero_destination">
+        <div class="hero-content_destination">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore the world's most breathtaking destinations with us.</p>
+            <a href="#destinations" class="cta-button">Start Planning</a>
+        </div>
+    </header>
+
+    <section id="destinations" class="featured-destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="{{ url_for('static', filename='images/paris.jpg') }}" alt="Paris, France">
+                <h3>Paris, France</h3>
+                <p>City of romance, history, and art.</p>
+                <a href="#" class="learn-more">View Details</a>
+            </div>
+            <div class="destination-card">
+                <img src="{{ url_for('static', filename='images/maldives.jpg') }}" alt="Maldives">
+                <h3>Maldives</h3>
+                <p>Crystal-clear waters and luxury escapes.</p>
+                <a href="#" class="learn-more">View Details</a>
+            </div>
+            <div class="destination-card">
+                <img src="{{ url_for('static', filename='images/Kyoto.jpg') }}" alt="Kyoto, Japan">
+                <h3>Kyoto, Japan</h3>
+                <p>Rich culture and timeless beauty.</p>
+                <a href="#" class="learn-more">View Details</a>
+            </div>
+            <div class="destination-card">
+                <img src="{{ url_for('static', filename='images/iceland.jpg') }}" alt="Iceland">
+                <h3>Iceland</h3>
+                <p>Land of fire, ice, and stunning landscapes.</p>
+                <a href="#" class="learn-more">View Details</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="categories">
+        <h2>Explore by Type</h2>
+        <div class="categories-grid">
+            <div class="category">
+                <img src="{{ url_for('static', filename='images/beach.jpg') }}" alt="Beach Getaways">
+                <h3>Beach Getaways</h3>
+            </div>
+            <div class="category">
+                <img src="{{ url_for('static', filename='images/adventure.jpg') }}" alt="Adventure Escapes">
+                <h3>Adventure Escapes</h3>
+            </div>
+            <div class="category">
+                <img src="{{ url_for('static', filename='images/culture.jpg') }}" alt="Cultural Hotspots">
+                <h3>Cultural Hotspots</h3>
+            </div>
+            <div class="category">
+                <img src="{{ url_for('static', filename='images/family.jpg') }}" alt="Family Destinations">
+                <h3>Family Destinations</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <h2>Ready to Explore?</h2>
+        <p>Let us plan your perfect trip. Your adventure awaits!</p>
+        <a href="#" class="cta-button">Contact Us</a>
+    </section>
+</body>
+
+</html>

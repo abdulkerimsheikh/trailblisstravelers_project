@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages - Travel Agency</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Our Travel Packages</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About Us</a></li>
+            <li><a href="{{ url_for('destinations') }}">Destinations</a></li>
+            <li><a href="{{ url_for('packages') }}">Packages</a></li>
+            <li><a href="{{ url_for('gallery') }}">Gallery</a></li>
+            <li><a href="{{ url_for('login') }}">Login</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Featured Packages</h2>
+        <div class="image-grid">
+            <img src="{{ url_for('static', filename='images/package1.jpg') }}" alt="Package 1">
+            <img src="{{ url_for('static', filename='images/package2.jpg') }}" alt="Package 2">
+        </div>
+        <p>Discover the best travel packages at affordable prices. Whether you are looking for a luxury vacation or a budget-friendly getaway, we have something for everyone!</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Travel Agency</p>
+    </footer>
+</body>
+</html>

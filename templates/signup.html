@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body class="signup-page">
+    <header>
+        <nav class="navbar_signup">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logoo.png') }}" alt="Logo" class="logo-img">
+            </div>
+            <ul class="nav-links_signup">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                <li><a href="{{ url_for('destinations') }}">Destinations</a></li>
+            </ul>
+            <button class="cta-buttn_home" onclick="window.location.href='{{ url_for('destinations') }}'">Book
+                Now</button>
+        </nav>
+    </header>
+
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+                <span>Join Us Today!</span>
+                <header>Signup</header>
+            </div>
+            <form action="/signup" method="POST">
+                <div class="input-fields">
+                    <i class="bx bx-user"></i>
+                    <input type="text" class="input" placeholder="Full Name" name="fullname" required>
+                </div>
+
+                <div class="input-fields">
+                    <i class="bx bx-envelope"></i>
+                    <input type="email" class="input" placeholder="Email" name="email" required>
+                </div>
+
+                <div class="input-fields">
+                    <i class="bx bx-lock-alt"></i>
+                    <input type="password" class="input" placeholder="Password" name="password" required>
+                </div>
+                <div class="input-fields">
+                    <i class="bx bx-lock"></i>
+                    <input type="password" class="input" placeholder="Confirm Password" name="confirm_password"
+                        required>
+                </div>
+
+                <div class="input-fields">
+                    <input type="submit" class="submit" value="Signup">
+                </div>
+            </form>
+
+            <div class="bottom">
+                <span>Already have an account?</span>
+                <a href="{{ url_for('login') }}" class="login-btn">Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Travel Agency</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <body class="contact-page">
+        <header>
+            <nav class="navbar_contact">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/logoo.png') }}" alt="TrailBliss Travels Logo"
+                        class="logo-img">
+                </div>
+                <ul class="nav-links_contact">
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('destinations') }}">Destinations</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li><a href="{{ url_for('signup') }}">Signup</a></li>
+                </ul>
+                <button class="cta-buttn_contact"
+                    onclick="window.location.href='{{ url_for('destinations') }}'">BookNow</button>
+            </nav>
+        </header>
+
+        <div class="container">
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="{{ url_for('submit_contact') }}" method="POST">
+                    <div class="form-field">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="tel" name="phone" placeholder="Your Phone Number (Optional)">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+
+            <div class="address">
+                <h2>Our Location</h2>
+                <p>123 Beach Road, Seaside City, Country</p>
+                <iframe src="https://www.google.com/maps/embed?pb=..." frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="social-media">
+                <h2>Follow Us</h2>
+                <a href="https://facebook.com/youragency" target="_blank">Facebook</a>
+                <a href="https://instagram.com/youragency" target="_blank">Instagram</a>
+                <a href="https://twitter.com/youragency" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <footer>
+            <nav class="footer_contact">
+                <p>&copy; 2024 Your Travel Agency. All Rights Reserved.</p>
+            </nav>
+
+        </footer>
+
+    </body>
+
+</html>

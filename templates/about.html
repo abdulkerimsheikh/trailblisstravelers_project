@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <body class="about-page">
+        <header>
+            <nav class="navbar_about">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/logoo.png') }}" alt="TrailBliss Travels Logo"
+                        class="logo-img">
+                </div>
+                <ul class="nav-links_about">
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('destinations') }}">Destinations</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li><a href="{{ url_for('signup') }}">Signup</a></li>
+                </ul>
+                <button class="cta-buttn_about" onclick="window.location.href='{{ url_for('contact') }}'">Book
+                    Now</button>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h1>EXPLORE THE WORLD WITH US</h1>
+                <h2>Discover Amazing Places</h2>
+                <p>Plan your next adventure with Explore the World and make memories that last a lifetime.</p>
+                <button class="cta-button" onclick="window.location.href='{{ url_for('destinations') }}'">Explore
+                    Destinations</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Us?</h2>
+            <div class="feature-cards">
+                <div class="card">
+                    <i class="bx bx-map"></i>
+                    <h3>Handpicked Destinations</h3>
+                    <p>Discover unique places curated by travel experts.</p>
+                </div>
+                <div class="card">
+                    <i class="bx bx-support"></i>
+                    <h3>24/7 Support</h3>
+                    <p>We're here for you every step of the way.</p>
+                </div>
+                <div class="card">
+                    <i class="bx bx-money"></i>
+                    <h3>Affordable Packages</h3>
+                    <p>Travel the world without breaking the bank.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
