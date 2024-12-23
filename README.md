@@ -77,13 +77,10 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
 
 ```
 TrailBliss/
-|-- app/
 |   |-- static/
-|   |   |-- css/
 |   |   |   |-- styles.css
 |   |   |-- images/
 |   |-- templates/
-|   |   |-- base.html
 |   |   |-- home.html
 |   |   |-- about.html
 |   |   |-- destinations.html
@@ -91,8 +88,6 @@ TrailBliss/
 |   |   |-- signup.html
 |   |   |-- login.html
 |-- app.py
-|-- requirements.txt
-|-- README.md
 ```
 
 ---
@@ -100,9 +95,9 @@ TrailBliss/
 ## Technologies Used
 
 - **Frontend:** HTML5, CSS3
-- **Backend:** Flask (Python)
+- **Backend:** integrated with Flask (Python)
 - **Icons:** Boxicons
-- **Styling Frameworks:** Custom CSS with Flexbox and Grid
+- **Styling Frameworks:** Custom CSS with Flexbox
 
 ---
 
@@ -110,7 +105,7 @@ TrailBliss/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/trailbliss-travelers.git
+    git clone https://github.com/abdulkerimsheikh/trailblisstravelers_project.git
    ```
 
 2. Navigate to the project directory:
@@ -118,9 +113,9 @@ TrailBliss/
    cd trailbliss-travelers
    ```
 
-3. Install the required dependencies:
+3. Install Flask manually (if not already installed):
    ```bash
-   pip install -r requirements.txt
+   pip install flask
    ```
 
 4. Run the Flask application:
@@ -137,10 +132,10 @@ TrailBliss/
 
 ## Challenges Faced
 
-1. **Consistency in Navigation:**
+1.  **Consistency in Navigation:**
    - **Challenge:** Maintaining a consistent navigation bar across all pages.
-   - **Solution:** Used a shared `base.html` template with dynamic Flask routes.
-
+   - **Solution:** Used a shared code structure and included navigation code directly in each template.
+   - 
 2. **Responsive Design:**
    - **Challenge:** Ensuring the website works seamlessly on all devices.
    - **Solution:** Implemented CSS Flexbox and Media Queries for adaptability.
@@ -149,6 +144,7 @@ TrailBliss/
    - **Challenge:** Simulating login/signup without a database.
    - **Solution:** Used hardcoded logic in Flask to validate inputs.
 
+
 ---
 
 ## Future Enhancements
@@ -156,3 +152,4 @@ TrailBliss/
 - Integrate a database for persistent user management.
 - Add dynamic destination pages with detailed itineraries.
 - Implement a real-time chat support system.
+
