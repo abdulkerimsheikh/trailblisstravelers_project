@@ -39,11 +39,19 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
   - Tagline: "Explore the World with Us."
   - Call-to-action buttons for "Explore Destinations" and "Book Now."
 
+ **Screenshot:**
+
+![Home Page](static/images/home-page.png "Home Page Screenshot")
+
 ### About
 - **Purpose:** Share the mission, vision, and unique value of TrailBliss Travelers.
 - **Highlights:**
   - "Why Choose Us" section with key features: Handpicked Destinations, 24/7 Support, and Affordable Packages.
   - Beautiful visuals to enhance storytelling.
+ 
+  **Screenshot:**
+
+![About Page](static/images/about-page.png "About Page Screenshot")
 
 ### Contact
 - **Purpose:** Allow users to reach out for inquiries or feedback.
@@ -51,6 +59,10 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
   - Contact form with fields for name, email, phone, and message.
   - Embedded Google Maps for easy office location identification.
   - Links to social media platforms.
+ 
+  - **Screenshot:**
+
+![Contact Page](static/images/contact-page.png "Contact Page Screenshot")
 
 ### Destinations
 - **Purpose:** Highlight featured destinations with curated travel recommendations.
@@ -58,18 +70,30 @@ Welcome to **TrailBliss Travelers**, your gateway to exploring the world and mak
   - Grid layout displaying destinations like Paris, Maldives, Kyoto, and Iceland.
   - Hover effects for interactivity.
   - "View Details" button for each destination.
+ 
+  - **Screenshot:**
+
+![Destination Page](static/images/destination-page.png "Destination Page Screenshot")
 
 ### Signup
 - **Purpose:** Simulated signup for users to "create an account."
 - **Highlights:**
   - Form fields for username, email, and password.
   - Responsive design for better usability.
+ 
+  - **Screenshot:**
+
+![Signup Page](static/images/signup-page.png "Signup Page Screenshot")
 
 ### Login
 - **Purpose:** Simulated login for returning users.
 - **Highlights:**
   - Form fields for username and password.
   - Error messages for invalid credentials.
+ 
+  - **Screenshot:**
+
+![Login Page](static/images/login-page.png "Login Page Screenshot")
 
 ---
 
